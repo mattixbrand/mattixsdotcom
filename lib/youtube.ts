@@ -204,7 +204,8 @@ async function readFeed(channelId: string): Promise<Video[]> {
 async function loadChannel(channelId: string) {
   "use cache";
   const videos = await readFeed(channelId);
-  cacheLife(videos.length > 0 ? "hours" : { revalidate: 60, expire: 180 });
+  if (videos.length > 0) cacheLife("hours");
+  else cacheLife({ revalidate: 60, expire: 180 });
   return videos;
 }
 
