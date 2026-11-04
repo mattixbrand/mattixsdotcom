@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import type { ReactNode } from "react";
 import { Fraunces, Noto_Sans_Khmer, Noto_Sans_SC, Noto_Sans_TC, Outfit } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import { site } from "@/lib/site";
 import "./globals.css";
 
@@ -57,7 +58,10 @@ export default function RootLayout({ children }: { children: ReactNode }) {
       data-scroll-behavior="smooth"
       className={`${display.variable} ${sans.variable} ${khmer.variable} ${simplified.variable} ${traditional.variable} h-full antialiased`}
     >
-      <body>{children}</body>
+      <body>
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }
