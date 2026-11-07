@@ -48,6 +48,9 @@ export const metadata: Metadata = {
   metadataBase: new URL(site.url),
   title: "Mattix",
   description: "Films, a novel, and software for hire.",
+  other: {
+    "google-adsense-account": "ca-pub-9968330559523186",
+  },
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
