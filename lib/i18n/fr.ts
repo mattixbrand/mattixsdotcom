@@ -27,7 +27,7 @@ const fr: Dictionary = {
   },
   cookie: {
     title: "Cookies sur ce site",
-    body: "Ce site enregistre votre choix de cookie dans ce navigateur. Si vous connectez MetaMask ou Trust Wallet, il enregistre aussi cette adresse et tout rappel de paiement mensuel sur cet appareil. Il n'utilise pas de cookies publicitaires, ne reçoit pas votre phrase secrète et ne vend pas de profil.",
+    body: "Ce site enregistre votre choix de cookie dans ce navigateur. Si vous connectez MetaMask ou Trust Wallet, il enregistre aussi cette adresse et tout rappel de paiement mensuel sur cet appareil. Google AdSense peut déposer des cookies publicitaires pour afficher des annonces. Il ne reçoit pas votre phrase secrète et ne vend pas de profil.",
     privacy: "Confidentialité",
     accept: "Accepter",
   },
@@ -276,7 +276,7 @@ const fr: Dictionary = {
         {
           heading: "Ce que le site conserve",
           paragraphs: [
-            "L'avis sur les cookies enregistre une seule valeur dans votre navigateur pour ne plus s'afficher après votre acceptation. Si vous connectez MetaMask ou Trust Wallet, ce navigateur enregistre aussi l'adresse connectée et, si vous choisissez un paiement mensuel, le montant et la prochaine date à confirmer. Ce rappel reste sur votre appareil. Il n'est pas envoyé à un serveur Mattix. Le site ne reçoit jamais votre phrase secrète ni votre clé privée. Le site ne fait pas de publicité ciblée et ne vend pas de données personnelles.",
+            "L'avis sur les cookies enregistre une seule valeur dans votre navigateur pour ne plus s'afficher après votre acceptation. Si vous connectez MetaMask ou Trust Wallet, ce navigateur enregistre aussi l'adresse connectée et, si vous choisissez un paiement mensuel, le montant et la prochaine date à confirmer. Ce rappel reste sur votre appareil. Il n'est pas envoyé à un serveur Mattix. Le site ne reçoit jamais votre phrase secrète ni votre clé privée. Google AdSense peut déposer des cookies publicitaires pour afficher des annonces. Le site ne vend pas de données personnelles.",
           ],
         },
         {

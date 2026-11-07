@@ -21,7 +21,7 @@ const zhHans: Dictionary = {
   footer: { terms: "使用条款", privacy: "隐私", serviceTerms: "服务条款", legal: "法律信息" },
   cookie: {
     title: "本站的 Cookie",
-    body: "本站在这台浏览器里保存你对 Cookie 的选择。如果你连接 MetaMask 或 Trust Wallet，本机还会保存该钱包地址和每月付款提醒。本站不投放广告 Cookie，不会收到你的助记词，也不出售你的资料。",
+    body: "本站在这台浏览器里保存你对 Cookie 的选择。如果你连接 MetaMask 或 Trust Wallet，本机还会保存该钱包地址和每月付款提醒。Google AdSense 可能会设置广告 Cookie 以展示广告。本站不会收到你的助记词，也不出售你的资料。",
     privacy: "隐私",
     accept: "接受",
   },
@@ -255,7 +255,7 @@ const zhHans: Dictionary = {
         {
           heading: "本站自己保存的内容",
           paragraphs: [
-            "Cookie 提示只在浏览器里保存一项，以免你接受后再次出现。如果你连接 MetaMask 或 Trust Wallet，这台浏览器还会保存所连接的钱包地址；若你选择每月付款，也会保存金额和下一次确认日期。该提醒留在你的设备上，不会发到 Mattix 的服务器。本站永远不会收到你的助记词或私钥。本站不投放广告网络，也不出售个人资料。",
+            "Cookie 提示只在浏览器里保存一项，以免你接受后再次出现。如果你连接 MetaMask 或 Trust Wallet，这台浏览器还会保存所连接的钱包地址；若你选择每月付款，也会保存金额和下一次确认日期。该提醒留在你的设备上，不会发到 Mattix 的服务器。本站永远不会收到你的助记词或私钥。Google AdSense 可能会设置广告 Cookie 以展示广告。本站不出售个人资料。",
           ],
         },
         {

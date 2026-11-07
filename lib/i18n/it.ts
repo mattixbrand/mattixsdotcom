@@ -27,7 +27,7 @@ const it: Dictionary = {
   },
   cookie: {
     title: "Cookie su questo sito",
-    body: "Questo sito salva la scelta sui cookie in questo browser. Se colleghi MetaMask o Trust Wallet, salva anche quell'indirizzo e ogni promemoria di pagamento mensile su questo dispositivo. Non usa cookie pubblicitari, non riceve la frase seed e non vende un profilo.",
+    body: "Questo sito salva la scelta sui cookie in questo browser. Se colleghi MetaMask o Trust Wallet, salva anche quell'indirizzo e ogni promemoria di pagamento mensile su questo dispositivo. Google AdSense può impostare cookie pubblicitari per mostrare annunci. Non riceve la frase seed e non vende un profilo.",
     privacy: "Privacy",
     accept: "Accetta",
   },
@@ -276,7 +276,7 @@ const it: Dictionary = {
         {
           heading: "Cosa conserva il sito",
           paragraphs: [
-            "L'avviso sui cookie salva un solo valore nel browser, così non ricompare dopo l'accettazione. Se colleghi MetaMask o Trust Wallet, questo browser salva anche l'indirizzo collegato e, se scegli un pagamento mensile, l'importo e la prossima data da confermare. Quel promemoria resta sul dispositivo. Non viene inviato a un server Mattix. Il sito non riceve mai la frase seed né la chiave privata. Il sito non fa pubblicità profilata e non vende dati personali.",
+            "L'avviso sui cookie salva un solo valore nel browser, così non ricompare dopo l'accettazione. Se colleghi MetaMask o Trust Wallet, questo browser salva anche l'indirizzo collegato e, se scegli un pagamento mensile, l'importo e la prossima data da confermare. Quel promemoria resta sul dispositivo. Non viene inviato a un server Mattix. Il sito non riceve mai la frase seed né la chiave privata. Google AdSense può impostare cookie pubblicitari per mostrare annunci. Il sito non vende dati personali.",
           ],
         },
         {

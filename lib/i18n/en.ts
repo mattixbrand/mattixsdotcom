@@ -20,7 +20,7 @@ const en = {
   footer: { terms: "Terms of use", privacy: "Privacy", serviceTerms: "Service terms", legal: "Legal" },
   cookie: {
     title: "Cookies on this site",
-    body: "This site stores your cookie choice in this browser. If you connect MetaMask or Trust Wallet, it also stores that wallet address and any monthly payment reminder on this device. It does not run advertising cookies, does not receive your seed phrase, and does not sell a profile of you.",
+    body: "This site stores your cookie choice in this browser. If you connect MetaMask or Trust Wallet, it also stores that wallet address and any monthly payment reminder on this device. Google AdSense may set advertising cookies to show ads. The site does not receive your seed phrase and does not sell a profile of you.",
     privacy: "Privacy",
     accept: "Accept",
   },
@@ -265,7 +265,7 @@ const en = {
         {
           heading: "What the site itself stores",
           paragraphs: [
-            "The cookie notice stores one value in your browser so the notice does not return after you accept it. If you connect MetaMask or Trust Wallet, this browser also stores the wallet address you connect and, if you choose a monthly payment, the amount and the next date to confirm. That reminder stays on your device. It is not sent to a Mattix server. The site never receives your seed phrase or private key. The site does not run an advertising network and does not sell personal data.",
+            "The cookie notice stores one value in your browser so the notice does not return after you accept it. If you connect MetaMask or Trust Wallet, this browser also stores the wallet address you connect and, if you choose a monthly payment, the amount and the next date to confirm. That reminder stays on your device. It is not sent to a Mattix server. The site never receives your seed phrase or private key. Google AdSense may set advertising cookies to show ads. The site does not sell personal data.",
           ],
         },
         {
